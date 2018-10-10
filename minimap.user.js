@@ -1,8 +1,8 @@
 
 // ==UserScript==
-// @name         TurkeyZone Minimap
+// @name         Pixelzone Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2.4
 // @description  TurkeyZone Minimap
 // @author       FIXINIT#0878
 // @match        https://pixelzone.io/*
@@ -10,7 +10,6 @@
 // @homepage     https://github.com/getulixbr/ZoneMap
 // @updateURL    https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/minimap.user.js
 // @downloadURL  https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/minimap.user.js
-// @grant        none
 // ==/UserScript==
 
 Number.prototype.between = function(a, b) {
@@ -19,14 +18,14 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/getulixbr/ZoneMap/master/';
+window.baseTepmlateUrl = 'http://wr4ith.hol.es/pixelzone/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
     re = /(.*)\/\?p=(\-?(?:\d*)),(\-?(?:\d*))/g;
     //Regular Expression to get coordinates from cursor
     rec = /x\:(\d*) y\:(\d*)/g;
-    gameWindow = document.getElementById("gameWindow");
+    gameWindow = document.getElementById("canvas");
     //DOM element of the displayed X, Y variables
     coorDOM = null;
     findCoor();
@@ -141,7 +140,7 @@ window.addEventListener('load', function () {
         }
     };
 
-    gameWindow = document.getElementById("layer1");
+    gameWindow = document.getElementById("canvas");
     gameWindow.addEventListener('mouseup', function (evt) {
         if (!toggle_show)
             return;
@@ -153,8 +152,11 @@ window.addEventListener('load', function () {
         if (!toggle_show)
             return;
         coorDOM = document.getElementById("coords");
-        x_new = coorDOM.innerHTML.replace(rec, '$1');
-        y_new = coorDOM.innerHTML.replace(rec, '$2');
+        coordsXY = coorDOM.innerHTML.split(/(\d+)/)
+        //console.log(coordsXY);
+        x_new = (coordsXY[0].substring(2) + coordsXY[1])*1
+        y_new = (coordsXY[2].substring(3) + coordsXY[3])*1;
+        //console.log({x_new,y_new});
         if (x != x_new || y != y_new) {
             x = parseInt(x_new);
             y = parseInt(y_new);
@@ -177,7 +179,7 @@ function updateloop() {
     console.log("Updating Template List");
     // Get JSON of available templates
     var xmlhttp = new XMLHttpRequest();
-    var url = window.baseTepmlateUrl + "/templates/data.json?" + new Date().getTime();
+    var url = window.baseTepmlateUrl + "data.json?" + new Date().getTime();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             template_list = JSON.parse(this.responseText);
@@ -257,7 +259,7 @@ function loadTemplates() {
     //console.log("x_right : " + x_right);
     //console.log("y_top : " + y_top);
     //console.log("y_bottom : " + y_bottom);
-    console.log(template_list);
+    //console.log(template_list);
     var keys = [];
     for (var k in template_list) keys.push(k);
     needed_templates = [];
@@ -306,9 +308,9 @@ function loadImage(imagename) {
     console.log("    Load image " + imagename);
     image_list[imagename] = new Image();
     if (cachebreaker != null)
-        image_list[imagename].src = window.baseTepmlateUrl + "/images/" + template_list[imagename].name;
+        image_list[imagename].src = window.baseTepmlateUrl + template_list[imagename].name;
     else
-        image_list[imagename].src = window.baseTepmlateUrl + "/images/" + template_list[imagename].name;
+        image_list[imagename].src = window.baseTepmlateUrl + template_list[imagename].name;
     image_list[imagename].onload = function () {
         counter += 1;
         //if last needed image loaded, start drawing
