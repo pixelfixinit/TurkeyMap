@@ -7,7 +7,7 @@
 // @author       FIXINIT#0878
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
-// @homepage     https://github.com/getulixbr/ZoneMap
+// @homepage     https://github.com/pixelfixinit/turkeymap
 // @updateURL    https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/minimap.user.js
 // @downloadURL  https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/minimap.user.js
 // ==/UserScript==
