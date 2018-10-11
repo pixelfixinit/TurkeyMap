@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'http://wr4ith.hol.es/pixelzone/';
+window.baseTepmlateUrl = ' https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
