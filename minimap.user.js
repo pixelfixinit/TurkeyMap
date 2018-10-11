@@ -1,8 +1,8 @@
 
 // ==UserScript==
-// @name         Pixelzone Minimap
+// @name         TurkeyZone Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.2.4
+// @version      1.1
 // @description  TurkeyZone Minimap
 // @author       FIXINIT#0878
 // @match        https://pixelzone.io/*
