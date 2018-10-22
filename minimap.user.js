@@ -1,3 +1,4 @@
+// ==UserScript==
 // @name         TurkeyMap
 // @namespace    http://tampermonkey.net/
 // @version      1.2.5
