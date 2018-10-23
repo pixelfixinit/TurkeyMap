@@ -1,0 +1,198 @@
+{
+  "TrArmy": {
+    "name": "TrArmy.png",
+    "x": 2338,
+    "y": -987,
+    "width": 497,
+    "height": 133
+   },
+      "TrArm": {
+    "name": "trar.png",
+    "x": 1323,
+    "y": 777,
+    "width": 190,
+    "height": 107
+   },
+      "Fenerbahce": {
+    "name": "template-21.png",
+    "x": 1481,
+    "y": -505,
+    "width": 176,
+    "height": 247
+   }, 
+       "NaziZone": {
+     "name": "swastika.png",
+     "x": -357,
+     "y": -672,
+     "width": 350,
+     "height": 220
+   },
+    "Ataturk": {
+    "name": "TrArmyAtaturk.png",
+    "x": 2307,
+    "y": -854,
+    "width": 200,
+    "height": 200
+   },
+    "15Temmuz": {
+    "name": "15Temmuz.png",
+    "x": 1142,
+    "y":  -211,
+    "width": 222,
+    "height": 230
+   },
+    "FenerBahceMerkezLogo": {
+    "name": "fenerbahcemerkezlogo.png",
+    "x": 1481,
+    "y": -492,
+    "width": 147,
+    "height": 147
+   },
+    "Fenerbahce": {
+    "name": "fenerbahcelogo.png",
+    "x":  1036,
+    "y": -3793,
+    "width": 145,
+    "height": 145
+   },
+    "guzel": {
+    "name": "guzel.png",
+    "x": 2672,
+    "y": -1152,
+    "width": 371,
+    "height": 145
+  },
+  "SaldrBayragi": {
+    "name": "SaldrBayragi.png",
+    "x": 2328,
+    "y": -1238,
+    "width": 345,
+    "height": 244
+   },
+    "italynap": {
+    "name": "italynap.png",
+    "x": 701,
+    "y": -224,
+    "width": 440,
+    "height": 384
+   },
+      "AlsancakPlan": {
+    "name": "AlsancakPlan.png",
+    "x": 71,
+    "y": -3814,
+    "width": 273,
+    "height": 155
+   },
+  "TrZoneMerkez": {
+    "name": "TrZoneMerkez.png",
+    "x": 812,
+    "y": -505,
+    "width": 377,
+    "height": 279
+  },
+  "AzeKKTC": {
+    "name": "aze_kktc.png",
+    "x": 1195,
+    "y": -505,
+    "width": 286,
+    "height": 294
+  },
+  "Turkiye": {
+    "name": "Turkiye.png",
+    "x": -4096,
+    "y": 3295,
+    "width": 1307,
+    "height": 802
+  },
+  "MetalTR": {
+    "name": "metaltr.png",
+    "x": 1393,
+    "y": -149,
+    "width": 116,
+    "height": 71
+},
+  "MerkezDcc": {
+    "name": "MerkezDcc.png",
+    "x": 700,
+    "y": 159,
+    "width": 550,
+    "height": 90
+  },
+  "SancakTim": {
+    "name": "sancaktime.png",
+    "x": 1212,
+    "y": -723,
+    "width": 172,
+    "height": 104
+},
+  "AzerbaycanAZE1": {
+    "name": "AzerbaycanAZE1.png",
+    "x": -2739,
+    "y": 2981,
+    "width": 2239,
+    "height": 1116
+},
+  "DiscordTR": {
+    "name": "discordTR.png",
+    "x": -4096,
+    "y": 3220,
+    "width": 522,
+    "height": 75
+},
+  "SancakBayrak": {
+    "name": "sancakbayrak.png",
+    "x": -4000,
+    "y": 2400,
+    "width": 275,
+    "height": 183
+  },
+  "SancakLink": {
+    "name": "sancakbayrak.png",
+    "x": -4000,
+    "y": 2370,
+    "width": 375,
+    "height": 75
+},
+  "TSK": {
+    "name": "tsk.png",
+    "x": 1071,
+    "y": -2508,
+    "width": 148,
+    "height": 178
+},
+  "30 August": {
+    "name": "30_august.png",
+    "x": 1567,
+    "y": -233,
+    "width": 249,
+    "height": 183
+},
+  "TrVoid": {
+    "name": "trvoid.png",
+    "x": 701,
+    "y": -507,
+    "width": 111,
+    "height": 283
+},
+  "Trabzone": {
+    "name": "trabzone.png",
+    "x": 1002,
+    "y": 610,
+    "width": 70,
+    "height": 99
+},
+  "FOTC": {
+    "name": "fotc.png",
+    "x": 941,
+    "y": -855,
+    "width": 177,
+    "height": 139
+},
+  "PixelZoneTr": {
+    "name": "pixelzonetr.png",
+    "x": 3114,
+    "y": -1280,
+    "width": 97,
+    "height": 57
+  }
+}
