@@ -41,19 +41,19 @@
     "width": 222,
     "height": 230
    },
-    "FenerBahceMerkezLogo": {
-    "name": "fenerbahcemerkezlogo.png",
-    "x": 1481,
-    "y": -492,
-    "width": 147,
-    "height": 147
+    "Bosta1": {
+    "name": "bosta1.png",
+    "x": 123,
+    "y": 123,
+    "width": 123,
+    "height": 123
    },
-    "Fenerbahce": {
-    "name": "fenerbahcelogo.png",
-    "x":  1036,
-    "y": -3793,
-    "width": 145,
-    "height": 145
+    "Bosta2": {
+    "name": "bosta2.png",
+    "x":  123,
+    "y":  123,
+    "width": 123,
+    "height": 133
    },
     "guzel": {
     "name": "guzel.png",
