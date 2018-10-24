@@ -20,12 +20,12 @@
     "width": 176,
     "height": 247
    }, 
-       "NaziZone": {
-     "name": "swastika.png",
+       "Naxi": {
+     "name": "nazi.png",
      "x": -357,
      "y": -672,
-     "width": 350,
-     "height": 220
+     "width": 353,
+     "height": 225
    },
     "Ataturk": {
     "name": "TrArmyAtaturk.png",
