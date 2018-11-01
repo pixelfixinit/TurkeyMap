@@ -55,6 +55,13 @@
     "width": 222,
     "height": 230
    },
+    "MiniNazi": {
+    "name": "mini.png",
+    "x": -4,
+    "y":  -526,
+    "width": 128,
+    "height": 76
+   },
     "Bosta1": {
     "name": "bosta1.png",
     "x": 123,
