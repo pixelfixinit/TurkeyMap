@@ -26,6 +26,13 @@
      "y": -672,
      "width": 353,
      "height": 225
+    }, 
+       "KucukNazi": {
+     "name": "kucuknazi-1.png",
+     "x": -4,
+     "y": -615,
+     "width": 98,
+     "height": 85
    },
     "Ataturk": {
     "name": "TrArmyAtaturk.png",
