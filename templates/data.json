@@ -62,12 +62,12 @@
     "width": 128,
     "height": 76
    },
-    "Bosta1": {
-    "name": "bosta1.png",
-    "x": 123,
-    "y": 123,
-    "width": 123,
-    "height": 123
+    "LittleDuran": {
+    "name": "littleduran.png",
+    "x": 2505,
+    "y": -428,
+    "width": 55,
+    "height": 39
    },
     "Bosta2": {
     "name": "bosta2.png",
