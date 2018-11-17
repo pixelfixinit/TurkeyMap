@@ -40,6 +40,13 @@
      "y": -615,
      "width": 98,
      "height": 85
+    }, 
+       "Lydia": {
+     "name": "template.png",
+     "x": 747,
+     "y": -750,
+     "width": 149,
+     "height": 127
    },
     "Ataturk": {
     "name": "TrArmyAtaturk.png",
