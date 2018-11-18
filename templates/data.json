@@ -54,6 +54,13 @@
      "y": -750,
      "width": 149,
      "height": 127
+    }, 
+       "Portekiz": {
+     "name": "portekiz.png",
+     "x": -4096,
+     "y": -2107,
+     "width": 1021,
+     "height": 694
    },
     "Ataturk": {
     "name": "TrArmyAtaturk.png",
