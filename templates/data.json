@@ -61,6 +61,13 @@
      "y": -2056,
      "width": 1021,
      "height": 694
+     }, 
+       "Rte": {
+     "name": "recep.png",
+     "x": -3575,
+     "y": 3037,
+     "width": 191,
+     "height": 206
    },
     "Ataturk": {
     "name": "TrArmyAtaturk.png",
