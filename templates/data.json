@@ -55,6 +55,13 @@
      "width": 149,
      "height": 127
      }, 
+       "isapepo": {
+     "name": "isapepo.png",
+     "x": -643,
+     "y": -672,
+     "width": 196,
+     "height": 225
+     }, 
        "Rte": {
      "name": "recep.png",
      "x": -3575,
