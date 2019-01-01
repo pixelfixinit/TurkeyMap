@@ -62,7 +62,7 @@ window.addEventListener('load', function () {
         '<canvas id="minimap-board" style="width: 100%; height: 100%;z-index:2;position:absolute;top:0;left:0;"></canvas>' +
         '<canvas id="minimap-cursor" style="width: 100%; height: 100%;z-index:3;position:absolute;top:0;left:0;"></canvas>' +
         '</div><div id="minimap-config" style="line-height:20px;">' +
-		'<a href=https://discord.io/fbzone target="_blank">Discord' +
+		'<a href=https://discord.io/trzone target="_blank">Discord' +
         '</a> | <span id="hide-map" style="cursor:pointer;color:white"> Haritayı Gizle' +
         '</span> | <span id="follow-mouse" style="cursor:pointer;">Fareyi Takip Et' +
         '</span>| Zoom: <span id="zoom-plus" style="cursor:pointer;font-weight:bold;">+</span> / ' +
