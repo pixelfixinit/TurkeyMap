@@ -22,7 +22,7 @@
    }, 
        "Naxi": {
      "name": "nazi.png",
-     "x": -357,
+     "x": -140,
      "y": -672,
      "width": 353,
      "height": 225
@@ -40,13 +40,6 @@
      "y": -220,
      "width": 101,
      "height": 72
-    }, 
-       "KucukNazi": {
-     "name": "kucuknazi-1.png",
-     "x": -4,
-     "y": -615,
-     "width": 98,
-     "height": 85
     }, 
        "Lydia": {
      "name": "template.png",
@@ -89,13 +82,6 @@
     "y":  -211,
     "width": 222,
     "height": 230
-   },
-    "MiniNazi": {
-    "name": "mini.png",
-    "x": -4,
-    "y":  -527,
-    "width": 128,
-    "height": 76
    },
     "LittleDuran": {
     "name": "littleduran.png",
