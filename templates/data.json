@@ -223,6 +223,27 @@
     "width": 70,
     "height": 99
 },
+  "NC": {
+     "name": "NC.png",
+     "x": 390,
+     "y": 25,
+     "width": 216,
+     "height": 275 
+   },
+     "Ajax": {
+     "name": "Ajax.png",
+     "x": 30,
+     "y": -390,
+     "width": 225,
+     "height": 155 
+    },
+   "FlexOnEMF": {
+     "name": "FlexOnEMF.png",
+     "x": 225,
+     "y": 88,
+     "width": 127,
+     "height": 191
+   },
   "FOTC": {
     "name": "fotc.png",
     "x": 941,
