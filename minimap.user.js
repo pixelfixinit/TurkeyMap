@@ -54,7 +54,7 @@ window.addEventListener('load', function () {
 
     var div = document.createElement('div');
     div.setAttribute('class', 'post block bc2');
-    div.innerHTML = '<div id="minimapbg" style="position: absolute; right: 1em; bottom: 1em; z-index: 2;">' +
+   div.innerHTML = '<style>.grecaptcha-badge{display: none;}</style>   <div id="minimapbg" style="position: absolute; right: 1em; bottom: 1em;">' +
         '<div id="minimap-text" style="display: none;"></div>' +
         '<div id="minimap-box" style="position: relative;width:420px;height:300px">' +
         '<canvas id="minimap" style="width: 100%; height: 100%;z-index:1;position:absolute;top:0;left:0;"></canvas>' +
