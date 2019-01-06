@@ -26,6 +26,13 @@
      "y": -672,
      "width": 353,
      "height": 225
+       }, 
+       "IronCross": {
+     "name": "cross.png",
+     "x": -4096,
+     "y": -4096,
+     "width": 1351,
+     "height": 792
     }, 
        "azee": {
      "name": "ortaaze2.png",
