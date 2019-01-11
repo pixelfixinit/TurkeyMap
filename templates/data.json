@@ -110,7 +110,14 @@
     "y":  82,
     "width": 76,
     "height": 96
-   },
+  }, 
+       "vale": {
+     "name": "valemale.png",
+     "x": 1076,
+     "y": -2842,
+     "width": 297,
+     "height": 170
+    }, 
     "guzel": {
     "name": "guzel.png",
     "x": 2672,
