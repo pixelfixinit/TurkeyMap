@@ -271,6 +271,13 @@
     "y": -855,
     "width": 177,
     "height": 139
+    },
+  "ancap": {
+    "name": "ancap.png",
+    "x": 2466,
+    "y": -165,
+    "width": 350,
+    "height": 195
 },
   "ZironZone": {
     "name": "zyronzone.png",
