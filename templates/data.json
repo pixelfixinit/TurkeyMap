@@ -1,11 +1,11 @@
 {
   "TrArmy": {
     "name": "TrArmy.png",
-    "x": 2338,
+    "x": 2507,
     "y": -987,
-    "width": 497,
-    "height": 133
-   },
+    "width": 328,
+    "height": 231
+  },
       "TrArm": {
     "name": "trar.png",
     "x": 1323,
