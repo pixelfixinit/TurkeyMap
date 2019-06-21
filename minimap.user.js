@@ -54,18 +54,19 @@ window.addEventListener('load', function () {
 
     var div = document.createElement('div');
     div.setAttribute('class', 'post block bc2');
-   div.innerHTML = '<style>.grecaptcha-badge{display: none;}</style>   <div id="minimapbg" style="position: absolute; right: 1em; bottom: 1em;">' +
+    div.innerHTML = '<style>.grecaptcha-badge{display: none;}</style>   <div id="minimapbg" style="position: absolute; right: 1em; bottom: 1em;">' +
+        '<div class="posy" id="posyt" style="background-color: rgba(255, 255, 255, 0.75); color: rgb(255, 0, 0); text-align: center; line-height: 30px; vertical-align: middle; width: auto; height: auto; border-radius: 0px; padding: 2px;">' +
         '<div id="minimap-text" style="display: none;"></div>' +
-        '<div id="minimap-box" style="position: relative;width:420px;height:300px">' +
+        '<div id="minimap-box" style="position: relative;width:375px;height:275px">' +
         '<canvas id="minimap" style="width: 100%; height: 100%;z-index:1;position:absolute;top:0;left:0;"></canvas>' +
         '<canvas id="minimap-board" style="width: 100%; height: 100%;z-index:2;position:absolute;top:0;left:0;"></canvas>' +
         '<canvas id="minimap-cursor" style="width: 100%; height: 100%;z-index:3;position:absolute;top:0;left:0;"></canvas>' +
         '</div><div id="minimap-config" style="line-height:20px;">' +
-		'<a href=https://discord.io/trzone target="_blank">Discord' +
-        '</a> | <span id="hide-map" style="cursor:pointer;color:white"> Haritayı Gizle' +
-        '</span> | <span id="follow-mouse" style="cursor:pointer;">Fareyi Takip Et' +
-        '</span>| Zoom: <span id="zoom-plus" style="cursor:pointer;font-weight:bold;">+</span> / ' +
+        '<span id="hide-map" style="cursor:pointer;font-size:18px;">    Gizlemek' +
+        '</span> | Zoom: <span id="zoom-plus" style="cursor:pointer;font-weight:bold;">+</span>  /  ' +
         '<span id="zoom-minus" style="cursor:pointer;font-weight:bold;">-</span>' +
+        '</div><div id="minimap-tittle" style="line-height:15px;">' +
+        '<span id="minimap-tr" style="font-weight:bold;text-align:center;"> ☾ Turkey Zone ☾' +
         '</div>' +
         '</div>';
     document.body.appendChild(div);
@@ -97,6 +98,7 @@ window.addEventListener('load', function () {
         document.getElementById("minimap-box").style.display = "none";
         document.getElementById("minimap-config").style.display = "none";
         document.getElementById("minimap-text").style.display = "block";
+        document.getElementById("minimap-tittle").style.display = "none";
         document.getElementById("minimap-text").innerHTML = "Haritayı Göster";
         document.getElementById("minimap-text").style.cursor = "pointer";
     };
@@ -104,6 +106,7 @@ window.addEventListener('load', function () {
         toggle_show = true;
         document.getElementById("minimap-box").style.display = "block";
         document.getElementById("minimap-config").style.display = "block";
+        document.getElementById("minimap-tittle").style.display = "block";
         document.getElementById("minimap-text").style.display = "none";
         document.getElementById("minimap-text").style.cursor = "default";
         loadTemplates();
@@ -126,19 +129,6 @@ window.addEventListener('load', function () {
     document.getElementById("zoom-minus").addEventListener('mouseup', function (e) {
         zooming_out = false;
     }, false);
-    document.getElementById("follow-mouse").onclick = function () {
-        toggle_follow = !toggle_follow;
-        if (toggle_follow) {
-            this.innerHTML = "Fareyi Takip Et";
-            loadTemplates();
-            x_window = x;
-            y_window = y;
-            drawCursor();
-        } else {
-            this.innerHTML = "Ekranı Takip Et";
-            getCenter();
-        }
-    };
 
     gameWindow = document.getElementById("canvas");
     gameWindow.addEventListener('mouseup', function (evt) {
@@ -176,7 +166,7 @@ window.addEventListener('load', function () {
 
 function updateloop() {
 
-    console.log("Updating Template List");
+    console.log("Updating template list...");
     // Get JSON of available templates
     var xmlhttp = new XMLHttpRequest();
     var url = window.baseTepmlateUrl + "templates/data.json?" + new Date().getTime();
@@ -190,11 +180,11 @@ function updateloop() {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 
-    console.log("Refresh got forced.");
+    console.log("Reload forced.");
     image_list = [];
     loadTemplates();
 
-    setTimeout(updateloop, 60000)
+    setTimeout(updateloop, 5000)
 }
 
 function toggleShow() {
@@ -202,6 +192,7 @@ function toggleShow() {
     if (toggle_show) {
         document.getElementById("minimap-box").style.display = "block";
         document.getElementById("minimap-config").style.display = "block";
+        document.getElementById("minimap-tittle").style.display = "block";
         document.getElementById("minimap-text").style.display = "none";
         document.getElementById("minimapbg").onclick = function () {
         };
@@ -210,7 +201,8 @@ function toggleShow() {
         document.getElementById("minimap-box").style.display = "none";
         document.getElementById("minimap-config").style.display = "none";
         document.getElementById("minimap-text").style.display = "block";
-        document.getElementById("minimap-text").innerHTML = "Show Minimap";
+        document.getElementById("minimap-tittle").style.display = "none";
+        document.getElementById("minimap-text").innerHTML = "Haritayı Göster";
         document.getElementById("minimapbg").onclick = function () {
             toggleShow()
         };
@@ -284,11 +276,15 @@ function loadTemplates() {
     if (needed_templates.length == 0) {
         if (zooming_in == false && zooming_out == false) {
             document.getElementById("minimap-box").style.display = "none";
+            document.getElementById("minimap-config").style.display = "none";
             document.getElementById("minimap-text").style.display = "block";
+            document.getElementById("minimap-tittle").style.display = "none";
             document.getElementById("minimap-text").innerHTML = "Burada template yok.";
         }
     } else {
         document.getElementById("minimap-box").style.display = "block";
+        document.getElementById("minimap-config").style.display = "block";
+        document.getElementById("minimap-tittle").style.display = "block";
         document.getElementById("minimap-text").style.display = "none";
         counter = 0;
         for (i = 0; i < needed_templates.length; i++) {
@@ -373,7 +369,7 @@ function drawCursor() {
 
     ctx_minimap_cursor.beginPath();
     ctx_minimap_cursor.lineWidth = zoomlevel / 3;
-    ctx_minimap_cursor.strokeStyle = "red";
+    ctx_minimap_cursor.strokeStyle = "black";
     ctx_minimap_cursor.rect(zoomlevel * xoff_c, zoomlevel * yoff_c, zoomlevel, zoomlevel);
     ctx_minimap_cursor.stroke();
 
