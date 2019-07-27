@@ -19,6 +19,13 @@
     "y": -505,
     "width": 260,
     "height": 247
+   },
+      "osmanli": {
+    "name": "ottoman5.png",
+    "x": -3395,
+    "y": 3041,
+    "width": 200,
+    "height": 134
     },
       "anaskm": {
     "name": "tep.png",
