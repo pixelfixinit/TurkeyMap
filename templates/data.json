@@ -265,12 +265,12 @@
      "width": 216,
      "height": 275 
    },
-     "Ajax": {
-     "name": "Ajax.png",
-     "x": 30,
-     "y": -390,
-     "width": 225,
-     "height": 155 
+     "BayrakÜstü": {
+     "name": "bayrakust.png",
+     "x": -4096,
+     "y": 3067,
+     "width": 511,
+     "height": 153 
     },
    "FlexOnEMF": {
      "name": "FlexOnEMF.png",
