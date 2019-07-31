@@ -258,12 +258,12 @@
     "width": 70,
     "height": 99
 },
-  "NC": {
-     "name": "NC.png",
-     "x": 390,
-     "y": 25,
-     "width": 216,
-     "height": 275 
+  "NeMutluTürkümDiyene": {
+     "name": "tr_nemutlu.png",
+     "x": -3572,
+     "y": 3270,
+     "width": 256,
+     "height": 24 
    },
      "BayrakÜstü": {
      "name": "bayrakust.png",
