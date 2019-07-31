@@ -41,12 +41,12 @@
      "width": 353,
      "height": 225
        }, 
-       "IronCross": {
-     "name": "cross.png",
+       "SeljukZone": {
+     "name": "seljuk_main.png",
      "x": -4096,
-     "y": -4096,
-     "width": 1351,
-     "height": 792
+     "y": 2895,
+     "width": 252,
+     "height": 110
     }, 
        "azee": {
      "name": "ortaaze2.png",
