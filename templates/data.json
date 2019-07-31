@@ -188,12 +188,12 @@
     "width": 550,
     "height": 90
   },
-  "zyron": {
-    "name": "zyron.png",
-    "x": -1183,
-    "y": 137,
-    "width": 122,
-    "height": 122
+  "LonelyOld": {
+    "name": "lonely_old.png",
+    "x": -2803,
+    "y": 3271,
+    "width": 58,
+    "height": 23
   },
   "SancakTim": {
     "name": "sancaktime.png",
