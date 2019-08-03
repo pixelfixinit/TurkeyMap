@@ -41,12 +41,12 @@
      "width": 100,
      "height": 75
        }, 
-       "SeljukZone": {
-     "name": "seljuk_main.png",
+       "SeljukTam": {
+     "name": "seljuk_tam.png",
      "x": -4096,
-     "y": 2895,
-     "width": 252,
-     "height": 110
+     "y": 2859,
+     "width": 1042,
+     "height": 146
     }, 
        "azee": {
      "name": "ortaaze2.png",
