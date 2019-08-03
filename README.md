@@ -3,7 +3,9 @@ Offical Pixelzone.io minimap of TurkeyZone.
 Resmi TurkeyZone minimapi.
 
 Discord: https://discord.io/trzone
+
 Reddit: https://www.reddit.com/r/TurkeyZone/
+
 Facebook: https://www.facebook.com/groups/382054812544217/
 
 KURULUM
