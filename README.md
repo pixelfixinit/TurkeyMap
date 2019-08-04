@@ -11,7 +11,7 @@ Facebook: https://www.facebook.com/groups/382054812544217/
 
 KURULUM
 
-1) İlk olarak TamperMonkey uzantısını eklemeniz gerekiyor.
+1. İlk olarak TamperMonkey uzantısını eklemeniz gerekiyor.
 
 Google Chrome için; (önerilen)
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=tr
@@ -22,8 +22,8 @@ https://addons.opera.com/tr/extensions/details/tampermonkey-beta/
 Firefox için;
 https://addons.mozilla.org/tr/firefox/addon/tampermonkey/
 
-2) TamperMonkey eklentisini ekledikten sonra alttaki linke tıklayın ve TamperMonkeye yükleyin.
+2. TamperMonkey uzantısını ekledikten sonra alttaki linke tıklayın ve TamperMonkeye yükleyin.
 
 https://raw.githubusercontent.com/pixelfixinit/TurkeyMap/master/minimap.user.js
 
-3) Oyuna girin ve minimap çalışıyor olacaktır.
+3. Oyuna girin ve minimap çalışıyor olacaktır.
