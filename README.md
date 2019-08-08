@@ -1,6 +1,5 @@
-# TurkeyMap
+#### TurkeyMap
 Offical Pixelzone.io minimap of TurkeyZone.
-
 Resmi TurkeyZone minimapi.
 
 Discord: https://discord.io/trzone
