@@ -293,11 +293,11 @@
     "width": 350,
     "height": 195
 },
-  "ZironZone": {
-    "name": "zyronzone.png",
-    "x": 2349,
-    "y": -455,
-    "width": 151,
-    "height": 103
+  "Operasyon": {
+    "name": "tr_operasyon.png",
+    "x": 1392,
+    "y": -4096,
+    "width": 607,
+    "height": 291
   }
 }
